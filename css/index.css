@@ -1,0 +1,64 @@
+*{
+  box-sizing: border-box;
+}
+/* Header setting */
+header {
+  height: 80vh;
+  background-image: url("../res/images/header.jpg");
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  /* text-align: center; */
+  color: white;
+}
+header .bottom-left {
+  position: absolute;
+  bottom: 20px;
+  left: 30px;
+}
+header .bottom-left h1 {
+  padding: 0 20px 10px 20px;
+  font-size: 3rem;
+}
+header .bottom-left p {
+  padding: 0 20px 10px 20px;
+  font-size: 1.2rem;
+}
+
+/* Main Page */
+main {
+  padding: 30px;
+}
+h2 {
+  padding: 20px;
+  text-align: center;
+  font-size: 2.0rem;
+}
+.search-bar {
+  display: flex;
+  margin: 20px;
+  justify-content:center;
+  align-content:center;
+}
+.search-key {
+  text-align: center;
+  margin: 10px 0;
+}
+input[type="text"] {
+  height: 30px;
+  width: 300px;
+}
+
+input[type="submit"], button{
+  height: 30px;
+  width: 80px;
+  background-color: #33454a;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type="submit"]:hover {
+  background-color: #0c2228;
+}
